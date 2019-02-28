@@ -1,0 +1,140 @@
+@charset "utf-8";
+#nav {
+	height: 60px;
+	width: 100%;
+	background-color: #000;
+	position: fixed;
+	padding: 0px;
+	margin: 0px;
+}
+#nav #nav1 {
+	height: 60px;
+	width: 1000px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+#nav #nav1 #nav2 {
+	float: left;
+	height: 60px;
+	width: 700px;
+}
+#nav #nav1 #nav2 ul li {
+	float: left;
+	height: 60px;
+	width: 100px;
+	list-style-type: none;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #996633;
+}
+#nav #nav1 #nav2 ul {
+	margin: 0px;
+	padding: 0px;
+}
+#nav #nav1 #nav2 a {
+	font-family: "黑体";
+	font-size: 18px;
+	line-height: 60px;
+	font-weight: bolder;
+	color: #FFF;
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	height: 60px;
+	width: 100px;
+}
+#nav #nav1 #nav2 a:hover {
+	color: #F90;
+	background-color: rgba(255,255,255,0.2);
+}
+#nav #nav1 #date {
+	float: left;
+	height: 60px;
+	width: 200px;
+	font-size: 14px;
+	line-height: 60px;
+	color: #FFF;
+}
+#nav #nav1 #cart {
+	float: right;
+	height: 60px;
+	width: 100px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+#nav #nav1 #cart a {
+	font-family: "黑体";
+	font-size: 18px;
+	line-height: 50px;
+	color: #FFF;
+	text-decoration: none;
+	display: block;
+	height: 60px;
+	width: 100px;
+	padding: 0px;
+}
+#nav #nav1 #cart a:hover {
+	line-height: 40px;
+	color: #F90;
+	background-position: 10px 10px;
+}
+body {
+	margin: 0px;
+}
+#content {
+	font-family: "微软雅黑";
+	font-size: 14px;
+	line-height: 22px;
+	margin-top: 30px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	width: 500px;
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #000;
+}
+.content2 {
+	width: 500px;
+	margin-top: 20px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	font-family: "微软雅黑";
+	font-size: 14px;
+	line-height: 22px;
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #000;
+}
+.owner  {
+	font-size: 18px;
+	font-weight: bold;
+	font-family: "楷体";
+	line-height: 24px;
+	margin: 0px;
+	padding: 0px;
+}
+.light {
+	font-weight: lighter;
+	font-size: 14px;
+}
+/* CSS Document */
+
+.bannerpic {
+	width: 600px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	height: 400px;
+	padding-top: 200px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	text-align: center;
+}
